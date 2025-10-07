@@ -1,8 +1,8 @@
 var http = require("http");
 const port = 8000;
 
+// Initialise web server
 http.createServer(function(req, res) {
-    //console.log(req);
     res.writeHead(200, { "Content-Type": "text/plain" });
     res.end("Hello World!");
 }).listen(port, function() {
