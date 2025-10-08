@@ -13,9 +13,9 @@ http.createServer(function(req, res) {
                 <title>MyPage</title>
             </head>
             <body>
-                <h1 style="color: blue">Hello World!</h1>
-                <h2>About me:</h2>
-                <p>Hi, nice to meet you! My name is Roan and I am a student at Goldsmiths, University of London.<p>
+                <h1 style="color: blue">Roan Jones</h1>
+                <h2>Computer Science student at Goldsmiths, UOL</h2>
+                <p>Hi, nice to meet you! My name is Roan and I study Computer Science at Goldsmiths University. My main interest is in AI and Machine Learning.<p>
             </body>
         </html>
         `);
