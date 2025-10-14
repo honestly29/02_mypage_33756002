@@ -1,3 +1,4 @@
+
 var http = require("http");
 const port = 8000;
 
@@ -15,10 +16,22 @@ http.createServer(function(req, res) {
             <body>
                 <h1 style="color: blue">Roan Jones</h1>
                 <h2>Computer Science student at Goldsmiths, UOL</h2>
-                <p>Hi, nice to meet you! My name is Roan and I study Computer Science at Goldsmiths University. My main interest is in AI and Machine Learning.<p>
+                <p>Hi, nice to meet you! My name is Roan and I study Computer Science at Goldsmiths University. My main interest is in AI and Machine Learning.</p>
+                <p>THIS IS A TEST</p>
             </body>
         </html>
         `);
 }).listen(port, function() {
     console.log(`Node server is running on port ${port}...`);
 });
+
+
+/*
+const express = require('express')
+const app = express()
+const port = 8000
+app.get('/', (req, res) => res.send('Hello World'))
+app.get('/info', (req, res) => res.send ('This is the info page'))
+app.get('/info', (req, res) => res.send ('This is another info page'))
+app.listen(port, () => console.log(`Example app listening on port ${port}!`))
+*/
